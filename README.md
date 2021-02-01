@@ -35,16 +35,10 @@ solution can only gain from having a better foundation.
   * Expected Result: The skier gets up and is facing to the left
   * Actual Result: Giant blizzard occurs causing the screen to turn completely white (or maybe the game just crashes!)
 
-  -- Bug found: Pressing Left or Right arrow keys after a crash caused the direction (integer) to be out of range
-  ---- Fix: Added conditionals to establish directionality if a crash state is present
-
 * **Write unit tests:**
 
   The base code has Jest, a unit testing framework, installed. Write some unit tests to ensure that the above mentioned
   bug does not come back.
-
-  -- Test added: If Skier is in a crash state and Left arrow is pressed, Skier should face left
-  -- Test added: If Skier is in a crash state and Right arrow is pressed, Skier should face right
 
 * **Extend existing functionality:**
 
@@ -57,9 +51,6 @@ solution can only gain from having a better foundation.
     * Trees can NOT be jumped over
   * Anything else you'd like to add to the skier's jumping ability, go for it!
 
-  -- Functionality added: Upon pressing Spacebar, Skier will jump - able to clear rocks, not trees
-  -- Functionality added: Upon hitting a ramp, Skier will jump (slightly longer) - able to clear rocks, not trees
-
 * **Build something new:**
 
   Now it's time to add something completely new. In the original Ski Free game, if you skied for too long, 
@@ -68,10 +59,6 @@ solution can only gain from having a better foundation.
   * The Rhino should appear after a set amount of time or distance skied and chase the skier, using the running assets
     we've provided to animate the rhino.
   * If the rhino catches the skier, it's game over and the rhino should eat the skier. 
-
-  -- Feature added: Rhino Attack
-  ---- After 25,000 pixels, Rhino will enter view (from right of screen) and run toward Skier 
-  ---- When Rhino reaches Skier, Rhino will eat Skier
 
 * **Documentation:**
 
