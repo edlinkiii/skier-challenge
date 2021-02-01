@@ -117,3 +117,6 @@ We are looking forward to see what you come up with!
     * Feature added: Rhino Attack
       * After 25,000 pixels, Rhino will enter view (from right of screen) and run toward Skier
       * When Rhino reaches Skier, Rhino will eat Skier
+
+  * **Bonus**
+    * Deployed: [Heroku](https://skier-challenge.herokuapp.com/)
