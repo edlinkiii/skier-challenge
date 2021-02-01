@@ -111,3 +111,22 @@ how creative candidates get with this.
 * Write more unit tests for your code
 
 We are looking forward to see what you come up with!
+
+**Changes**
+
+  * **Fix a bug:**
+    * Bug found: Pressing Left or Right arrow keys after a crash caused the direction (integer) to be out of range
+    * Bug fix: Added conditionals to establish directionality if a crash state is present
+
+  * **Write unit tests:**
+    * Test added: If Skier is in a crash state and Left arrow is pressed, Skier should face left
+    * Test added: If Skier is in a crash state and Right arrow is pressed, Skier should face right
+
+  * **Extend existing functionality:**
+    * Functionality added: Upon pressing Spacebar, Skier will jump - able to clear rocks, not trees
+    * Functionality added: Upon hitting a ramp, Skier will jump (slightly longer) - able to clear rocks, not trees
+
+  * **Build something new:**
+    * Feature added: Rhino Attack
+      * After 25,000 pixels, Rhino will enter view (from right of screen) and run toward Skier
+      * When Rhino reaches Skier, Rhino will eat Skier
